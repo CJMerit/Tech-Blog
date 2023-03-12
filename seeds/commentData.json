@@ -1,0 +1,14 @@
+[
+    {
+        "description": "I love the MVC format. It makes development so much easier to navigate!",
+        "post_id": 1
+    },
+    {
+        "description": "Just remember, before users are authorized, they must be authenticated.",
+        "post_id": 2
+    },
+    {
+        "description": "ORM's are still a bit confusing. Can anyone help with this?",
+        "post_id": 3
+    }
+]
