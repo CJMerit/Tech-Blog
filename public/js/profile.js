@@ -1,6 +1,6 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
-
+  console.log('Clicked submit')
   const title = document.querySelector('#post-title').value.trim();
   const description = document.querySelector('#post-desc').value.trim();
 
@@ -14,7 +14,7 @@ const newFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.reload();
     } else {
       alert('Failed to create project');
     }
@@ -30,7 +30,7 @@ const delButtonHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.reload();
     } else {
       alert('Failed to delete project');
     }

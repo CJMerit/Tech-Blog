@@ -1,0 +1,60 @@
+header {
+  background-color: #B0AAA3;
+}
+
+body {
+  background-color: #DBDACE;
+  color: #9700AC;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.title {
+  font-size: 50px; 
+  color: #5e5d5d;
+}
+
+.created {
+  font-size:30px;
+  color: #5e5d5d;
+}
+
+.description {
+  color: #9700AC;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #9700AC;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.nav-link {
+  color: #9700AC;
+  font-size: 25px;
+}
+
+.nav-link:hover {
+  color: #CD00E9;
+  text-decoration: underline;
+}
+
+.post {
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+.post-header {
+  background-color: #B0AAA3;
+  border-top-left-radius: 25px; 
+  border-bottom-left-radius: 25px; 
+}
+
+.btn-sm {
+  margin-bottom: 5px;
+}
